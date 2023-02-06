@@ -5,7 +5,6 @@
     include __DIR__.'/Models/Cibo.php';
     include __DIR__.'/Models/Accessorio.php';
 
-    echo "<pre>";
 
     //sezione Giochi
 

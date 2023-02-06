@@ -13,7 +13,7 @@
         }
 
         public function getProduct(){
-           return parent ::getProduct()."<p>".$this->caratteristica."<br>".$this->dimensione."</p>";
+           return parent ::getProduct()."<p><strong>Descrizione: </strong>".$this->caratteristica."<br>"."<strong>Dimensione: </strong>".$this->dimensione."</p>";
         }
     }
 
