@@ -20,11 +20,14 @@
         <div class="row">
             <div class="col-12 d-flex flex-wrap">
                 <?php foreach($prodotti as $item){ ?>
-                    <div class="card m-5" style="width: 20rem;">
-                        <img src="<?php echo $item->immagine;
-                        ?>" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <?php echo $item->getProduct();
+                    <div class="card m-5 p-2 d-flex justify-content-around" style="width: 18rem">
+                        <div class="d-flex justify-content-center">
+                            <img src="<?php echo $item->immagine;
+                            ?>" class=" w-50" alt="...">
+
+                        </div>
+                        <div >
+                            <?php echo $item->getProduct(); // metodo per poter stampare le informazioni. 
                             ?>
                         </div>
                     </div>
