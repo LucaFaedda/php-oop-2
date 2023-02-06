@@ -16,7 +16,7 @@
 
     $royal_canin = new Cibo('Royal Canin','47.62 Euro', '<i class="fa-solid fa-dog"></i> Cane','https://m.media-amazon.com/images/I/61mmOAWbpWL._AC_SY450_.jpg','Crocchette','3kg');
     $royal_gattin = new Cibo('Royal Gattin','38.96 Euro', '<i class="fa-solid fa-cat"></i> Gatto','https://m.media-amazon.com/images/I/51Dtb9qk02L._AC_SY679_.jpg','Crocchette','3kg');
-    $vermi_uccelli = new Cibo('EWL','32.95 Euro', '<i class="fa-solid fa-kiwi-bird"></i>uccello','https://m.media-amazon.com/images/I/81RsK97o2DL._AC_SX466_.jpg','Vermi essicati','2kg');
+    $vermi_uccelli = new Cibo('EWL','32.95 Euro', '<i class="fa-solid fa-kiwi-bird"></i> Uccello','https://m.media-amazon.com/images/I/81RsK97o2DL._AC_SX466_.jpg','Vermi essicati','2kg');
     $mangime_pesci = new Cibo('Haquoss Marine Gran Gourmet','6.70 Euro', '<i class="fa-solid fa-fish-fins"></i> Pesce','https://m.media-amazon.com/images/I/61mFNEJsUNS._AC_SX466_.jpg','Granulato','80g');
 
     // sezione Accessori
