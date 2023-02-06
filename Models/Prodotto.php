@@ -18,6 +18,7 @@
         public function getProduct(){
             return "<h2>".$this->name."</h2>"."<h3>".$this->categoria."</h3>"."<strong>Prezzo: </strong>".$this->prezzo;
         }
+
     
     }
 
