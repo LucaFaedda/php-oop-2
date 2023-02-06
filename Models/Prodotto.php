@@ -6,11 +6,11 @@
         public $categoria;
         public $immagine;
 
-        public function __constructor($name, $prezzo, $categoria, $immagine){
-            $this-> name = $name;
-            $this -> prezzo = $prezzo;
-            $this -> categoria = $categoria;
-            $this -> immagine = $immagine;
+        public function __construct($name, $prezzo, $categoria, $immagine){
+            $this->name = $name;
+            $this->prezzo = $prezzo;
+            $this->categoria = $categoria;
+            $this->immagine = $immagine;
         }
     
     }

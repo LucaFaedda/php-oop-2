@@ -3,6 +3,7 @@
     include __DIR__.'/database.php';
 
     $prodotto  = new Prodotto('Cuccia', '54euro','cane','img');
+    var_dump($prodotto);
     
 
 ?>
