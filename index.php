@@ -16,6 +16,12 @@
     <title>OOP-2</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                
+            </div>
+        </div>
+    </div>
 </body>
 </html>
