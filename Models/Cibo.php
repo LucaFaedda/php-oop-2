@@ -11,6 +11,10 @@
             $this->peso = $peso;
 
         }
+
+        public function getProduct(){
+            return parent ::getProduct()."<h1>Cibo</h1>".$this->tipologia.$this->peso;
+         }
     }
 
 ?>

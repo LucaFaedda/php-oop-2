@@ -11,6 +11,10 @@
             $this->dimensione = $dimensione;
 
         }
+
+        public function getProduct(){
+           return parent ::getProduct()."<p>".$this->caratteristica."<br>".$this->dimensione."</p>";
+        }
     }
 
 ?>

@@ -11,6 +11,10 @@
 
 
         }
+
+        public function getProduct(){
+            return parent ::getProduct()."<h1>Accessorio</h1>".$this->dimensione.$this->materiale;
+         }
     }
 
 ?>

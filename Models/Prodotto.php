@@ -12,6 +12,10 @@
             $this->categoria = $categoria;
             $this->immagine = $immagine;
         }
+
+        public function getProduct(){
+            return "<h3>".$this->categoria."</h3>".$this->prezzo;
+        }
     
     }
 
