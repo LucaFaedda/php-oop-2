@@ -13,7 +13,8 @@
         }
 
         public function getProduct(){
-            return parent ::getProduct()."<h1>Accessorio</h1>".$this->dimensione.$this->materiale;
+            return parent ::getProduct()."<p><strong>Descrizione: </strong>".$this->dimensione."<br>"."<strong>Dimensione: </strong>".$this->materiale."</p>";
+
          }
     }
 
