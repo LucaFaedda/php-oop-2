@@ -13,7 +13,7 @@
         }
 
         public function getProduct(){
-            return parent ::getProduct()."<h1>Cibo</h1>".$this->tipologia.$this->peso;
+            return parent ::getProduct()."<p><strong>Descrizione: </strong>".$this->tipologia."<br>"."<strong>Dimensione: </strong>".$this->peso."</p>";
          }
     }
 
