@@ -25,9 +25,9 @@
             </div>
             <div class="col-12 d-flex flex-wrap justify-content-center ">
                 <?php foreach($prodotti as $item){ ?>
-                    <div class="card d-flex justify-content-around m-2 " style="width: 20rem;">
-                        <div class="my-2 mx-1 pb-3 border-bottom">
-                            <img src="<?php echo $item->immagine;?>" class="card-img-top immagine" alt="<?php $item->name ?>">
+                    <div class="card d-flex  m-2 align-item-center " style="width: 20rem;">
+                        <div class="my-2 mx-1 pb-3 border-bottom " >
+                            <img src="<?php echo $item->immagine;?>" class="immagine" alt="<?php $item->name ?>">
                         </div>
                         <div class="card-body">
                             <?php echo $item->getProduct();?>

@@ -4,8 +4,19 @@
     box-sizing: border-box;
 }
 
+html body {
+    background-color: rgba(3, 3, 3, 0.932);
+}
+
 /* sezione card */
+
+
+.immagine {
+    width: 250px;
+    height: 200px;
+}
 
 .immagine:hover {
     cursor: pointer;
+    filter: grayscale(40);
 }
