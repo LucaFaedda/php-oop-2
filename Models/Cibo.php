@@ -12,6 +12,8 @@
 
         }
 
+        //sovrascrivo il metodo di prodotto
+
         public function getProduct(){
             return parent ::getProduct()."<p><strong>Descrizione: </strong>".$this->tipologia."<br>"."<strong>Dimensione: </strong>".$this->peso."</p>";
          }
