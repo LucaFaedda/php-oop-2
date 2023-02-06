@@ -18,8 +18,27 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-12">
-                
+            <div class="col-12  m-5">
+                <?php foreach($prodotti as $item){ ?>
+                    <div class="card" style="width: 18rem;">
+                        <img src=" <?php echo $item->$immagine;
+                        ?>" class="card-img-top" alt="...">
+                        <div class="card-body ">
+                            <h5 class="card-title"><?php echo $item->name;
+                            ?></h5>
+                            <p><?php echo "Categoria: ".$item->categoria."<br>"."Prezzo: ".$item->prezzo;
+                            ?></p>
+                            <p class="card-text"><?php if($item->caratteristica){
+                                echo $item->caratteristica;
+
+                            }
+                            else{
+                                echo $item->peso;
+                            };
+                            ?></p>
+                        </div>
+                    </div>
+               <?php }?>
             </div>
         </div>
     </div>

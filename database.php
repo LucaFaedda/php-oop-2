@@ -23,7 +23,7 @@
     // sezione Accessori
 
     $groot = new Accessorio('SLOCME Thinking Groot','16.99 Euro', 'pesce','https://m.media-amazon.com/images/I/71cGkHnA4NL._AC_SY355_.jpg','10P x 11L x 13H','Resina');
-    $castello = new Accessorio('FEANDREA','4999 Euro', 'gatto','https://m.media-amazon.com/images/I/71Q3RaQPr+L._AC_SX466_.jpg','30L x 3l x 118H','Pannello di Truciolato, Peluche, Sisal');
+    $castello = new Accessorio('FEANDREA','49.99 Euro', 'gatto','https://m.media-amazon.com/images/I/71Q3RaQPr+L._AC_SX466_.jpg','30L x 3l x 118H','Pannello di Truciolato, Peluche, Sisal');
 
     $prodotti = [
         $nobby,
@@ -37,7 +37,7 @@
         $castello
     ];
 
-    var_dump($prodotti);
+    // var_dump($prodotti);
 
 
 
