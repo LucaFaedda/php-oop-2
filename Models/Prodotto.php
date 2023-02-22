@@ -23,3 +23,6 @@
     }
 
 ?>
+
+
+<!-- Sarebbe stato meglio suddividere ulteriormente con Categoria e Prodotto -->

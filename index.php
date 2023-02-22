@@ -32,6 +32,7 @@
                         <div class="card-body">
                             <?php echo $item->getProduct();?>
                         </div>
+                        <h1>ciao due</h1>
                     </div>
                 <?php }?>
             </div>
